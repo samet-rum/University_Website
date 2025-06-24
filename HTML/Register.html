@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Üniversite Websitesi</title>
+  <link rel="stylesheet" href="../CSS/register.css">
+</head>
+<body>
+<header>
+<div class="top-bar">
+  <!-- Sol Logo -->
+  <div class="top-left">
+  <a href="index.html">
+    <img src="../IMG/atalogo.png" alt="Logo" class="logo">
+  </a>
+</div>
+
+
+  <!-- Orta Arama Kutusu -->
+  <div class="top-center">
+    <div class="search-container">
+      <input type="text" placeholder="Search..." class="search-expand">
+    </div>
+  </div>
+
+  <!-- Sağ Dil Seçimi -->
+  <div class="top-right">
+    <div class="language-switch">
+      <a href="../turkcehtml/Register.html">TR</a> | <a href="../HTML/Register.html">ENG</a>
+    </div>
+  </div>
+</div>
+
+  <!-- Menü -->
+  <nav class="main-nav">
+  <ul>
+    <li><a href="../HTML/Offer.html">Offer</a></li>
+    <li><a href="../HTML/about.html">About</a></li>
+    <li><a href="../HTML/Master.html">Master</a></li>
+    <li><a href="../HTML/Register.html">Register</a></li>
+  </ul>
+</nav>
+</header>
+  <!-- Üst header -->
+  <!-- Üst header -->
+
+<main>  <div class="nav-placeholder"></div>
+
+<div class="register-container">
+    <h2>Create an Account</h2>
+    <form action="../PHP/register.php" method="POST">
+
+      <label for="firstname">First Name</label>
+      <input type="text" id="firstname" name="firstname" required>
+
+      <label for="lastname">Last Name</label>
+      <input type="text" id="lastname" name="lastname" required>
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+
+      <button type="submit">Register</button>
+
+      <div class="login-link">
+        Already have an account? <a href="../HTML/Login.html">Login here</a>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
+
+
+<!-- Footer -->
+  <footer class="site-footer">
+    <div class="footer-container">
+      <div class="footer-left">
+        <img src="../IMG/atalogo_white.png" alt="Footer Logo" class="footer-logo">
+        <p>12 Olszewska Street<br>00-792 Warsaw, Poland</p>
+        <p>+48 22 825 80 34/35<br>rekrutacja@akademiata.pl</p>
+      </div>
+      <div class="footer-center">
+        <p>The website of the University of Technology and Arts in Applied Sciences in Warsaw is for informational purposes only. The information provided on the site is not legally binding and does not constitute a commercial offer within the meaning of the Civil Code.</p>
+      </div>
+      <div class="footer-right">
+        <ul>
+          <li>Offer</li>
+          <li>Bachelor</li>
+          <li>Master</li>
+          <li>Language Courses</li>
+          <li>Postgraduate courses</li>
+          <li>Contacts</li>
+          <li>About us</li>
+          <li>BIP</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© UTA 2025</div>
+  </footer>
+</body>
+</html>

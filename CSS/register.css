@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* TOP BAR */
+/* TOP BAR */
+.top-bar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 120px;
+  background-color: #f8f6f3;
+  z-index: 1001;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 40px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* LOGO */
+.logo {
+  height: 200px;
+  width: auto;
+}
+
+/* ORTA ARAMA */
+.top-center {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 200px;
+}
+
+.search-container {
+  position: relative;
+}
+
+.search-expand {
+  width: 160px;
+  height: 20px;
+  padding: 10px 15px 10px 35px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  background: url('https://cdn-icons-png.flaticon.com/512/622/622669.png') no-repeat 10px center;
+  background-size: 16px;
+  transition: width 0.4s ease-in-out;
+  font-size: 15px;
+}
+
+.search-expand:focus {
+  width: 250px;
+  outline: none;
+  border-color: #ff6600;
+}
+
+/* SAĞ DİL SEÇİMİ */
+.top-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.language-switch {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* 🔄 butonlar arası boşluk */
+  margin-right: 100px;
+}
+
+.language-switch a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #333;
+  transition: color 0.2s ease;
+}
+
+.language-switch a:hover {
+  color: #ff6600;
+}
+
+
+
+/* NAVBAR */
+.main-nav {
+  position: fixed;
+  top: 120px;
+  width: 100%;
+  height: 60px;
+  background-color: rgb(239, 98, 33);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav-placeholder {
+  height: 60px;
+}
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav li {
+  margin: 0 20px;
+}
+
+.main-nav a {
+  display: inline-block;
+  padding: 15px 0;
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  position: relative;
+}
+
+.main-nav a:hover::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #c82333;
+  bottom: 8px;
+  left: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.register-container {
+  max-width: 450px;
+  margin: 100px auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.register-container h2 {
+  text-align: center;
+  color: #e84e0f;
+  margin-bottom: 30px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+  color: #333;
+  font-weight: bold;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+
+button[type="submit"] {
+  width: 100%;
+  padding: 12px;
+  background-color: #ef6221;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #d64e13;
+}
+
+.login-link {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+}
+
+.login-link a {
+  color: #e84e0f;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.site-footer {
+  background-color: #000;
+  color: #fff;
+  padding: 40px 20px 10px;
+  font-family: 'Arial', sans-serif;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.footer-left,
+.footer-center,
+.footer-right {
+  flex: 1 1 250px;
+}
+
+.footer-left img {
+  width: 200px;
+  margin-bottom: 15px;
+}
+
+.footer-left p,
+.footer-center p {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-right ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-right li {
+  margin-bottom: 8px;
+}
+
+.footer-right a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
+}
+
+.footer-bottom {
+  border-top: 1px solid #333;
+  margin-top: 20px;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 14px;
+  color: #ccc;
+}
+main{
+    padding-top: 12rem;
+}
